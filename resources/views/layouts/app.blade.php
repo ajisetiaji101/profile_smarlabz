@@ -8,6 +8,8 @@
     <meta name="description" content="SMAR LABS adalah perusahaan IT Consultant terpercaya yang menyediakan solusi digital, pengembangan perangkat lunak, dan teknologi terkini untuk bisnis Anda.">
     <meta name="keywords" content="IT Consultant, Software Developer, Konsultan Teknologi, Digital Solution, SMAR LABS, smarlabs.biz.id">
     <meta name="author" content="SMAR LABS">
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="{{ url()->current() }}" />
 
     <!-- Open Graph (untuk preview di media sosial) -->
     <meta property="og:title" content="SMAR LABS - IT Consultant Profesional di Indonesia">
