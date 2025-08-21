@@ -8,6 +8,7 @@
             <a href="#services" class="nav-link transition-colors duration-500">Layanan</a>
             <a href="#portfolio" class="nav-link transition-colors duration-500">Portofolio</a>
             <a href="#team" class="nav-link transition-colors duration-500">Tim Kami</a>
+            <a href="#blog" class="nav-link transition-colors duration-500">Blog</a>
             <a href="#mitra" class="nav-link transition-colors duration-500">Mitra</a>
             <a href="http://wa.link/89pp3z" class="bg-orange-500 text-white font-semibold px-6 py-2 rounded-full hover:bg-orange-600 transition">Hubungi Kami</a>
         </div>
@@ -21,6 +22,7 @@
         <a href="#services" class="block py-2 text-gray-600 hover:text-blue-600 transition">Layanan</a>
         <a href="#portfolio" class="block py-2 text-gray-600 hover:text-blue-600 transition">Portofolio</a>
         <a href="#team" class="block py-2 text-gray-600 hover:text-blue-600 transition">Tim Kami</a>
+        <a href="#blog" class="block py-2 text-gray-600 hover:text-blue-600 transition">Blog</a>
         <a href="#mitra" class="block py-2 text-gray-600 hover:text-blue-600 transition">Mitra</a>
         <a href="http://wa.link/89pp3z" class="block mt-4 text-center bg-orange-500 text-white font-semibold px-6 py-2 rounded-full hover:bg-orange-600 transition">Hubungi Kami</a>
     </div>

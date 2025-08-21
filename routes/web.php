@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\Auth\AuthenticatedSessionController;
 use App\Http\Controllers\BlogController;
+use App\Http\Controllers\BlogListController;
 use App\Http\Controllers\ProductController;
 use App\Http\Controllers\LandingController;
 use App\Http\Controllers\TestimonialsController;
@@ -21,9 +22,13 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', [LandingController::class, 'index']);
 
+Route::get('/blogs', [BlogListController::class, 'index'])->name('bloglist.index');
+Route::get('/blogs/{id}', [BlogListController::class, 'show'])->name('bloglist.show');
+
 Route::get('/login', [AuthenticatedSessionController::class, 'create'])
     ->middleware('guest')
     ->name('login');
+    
 
 // Proses login
 Route::post('/login', [AuthenticatedSessionController::class, 'store'])

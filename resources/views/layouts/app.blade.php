@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>{{ config('app.name', 'SMAR LABS') }} - IT Consultant</title>
+    <title>SMARLABS - IT Consultant</title>
 
     <meta name="description" content="SMAR LABS adalah perusahaan IT Consultant terpercaya yang menyediakan solusi digital, pengembangan perangkat lunak, dan teknologi terkini untuk bisnis Anda.">
     <meta name="keywords" content="IT Consultant, Software Developer, Konsultan Teknologi, Digital Solution, SMAR LABS, smarlabs.biz.id">
@@ -25,7 +25,11 @@
     <meta name="twitter:image" content="https://www.smarlabs.biz.id/images/logo.png">
 
     <!-- Favicon -->
-    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="https://www.smarlabs.biz.id/favicon.ico" type="image/x-icon">
+
+    <meta itemprop="name" content="SMARLABS - IT Consultant Profesional di Indonesia">
+    <meta itemprop="description" content="SMARLABS adalah perusahaan IT Consultant terpercaya yang menyediakan solusi digital, pengembangan perangkat lunak, dan teknologi terkini untuk bisnis Anda.">
+    <meta itemprop="image" content="https://www.smarlabs.biz.id/images/logo.png">
 
     <script src="https://cdn.tailwindcss.com"></script>
 
@@ -36,6 +40,8 @@
     <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/countup.js@2.0.7/dist/countUp.umd.js"></script>
+
+    <link href="https://cdn.quilljs.com/1.3.6/quill.snow.css" rel="stylesheet">
 
     <style>
         body {
